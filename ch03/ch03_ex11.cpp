@@ -10,7 +10,7 @@
 using namespace std;
 
 int main() {
-    vector<string> coins = {"pennies", "nickels", "dimes", "quarters", "half dollars", "one dollar coins"};
+    vector<string> coins = {"pennie(s)", "nickel(s)", "dime(s)", "quarter(s)", "half dollar(s)", "one dollar coin(s)"};
     vector<int> amounts;
     vector<int> values = {1, 5, 10, 25, 50, 100};
     int temp;
