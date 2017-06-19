@@ -1,0 +1,4 @@
+std_lib
+test
+.vscode
+*.o
