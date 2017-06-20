@@ -1,4 +1,4 @@
-// ch04 ex06 pg. 129
+// ch04 ex08 pg. 129
 // USING INTS 2^x grains of rice until 1000, 1000000, 1000000000
 
 // #include "../std_lib_facilities.h"

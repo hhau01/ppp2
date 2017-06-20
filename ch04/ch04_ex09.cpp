@@ -1,4 +1,4 @@
-// ch04 ex06 pg. 129
+// ch04 ex09 pg. 129
 // USING DOUBLES 2^x grains of rice until 1000, 1000000, 1000000000
 
 // #include "../std_lib_facilities.h"
