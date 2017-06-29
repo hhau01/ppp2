@@ -18,9 +18,10 @@ int main() {
     double k = 0;
     try {
         k = ctok(c);    
+        cout << k << '\n';       
+        return 0;
     } catch (exception &e) {
-        cout << "Invalid argument: " << e.what() << endl;
-        exit(1);
+        cerr << "Invalid argument: " << e.what() << endl;
+        return 1;
     }
-    cout << k << '\n';       
 }

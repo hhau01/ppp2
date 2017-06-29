@@ -26,8 +26,8 @@ int main() {
     try {
         solve_quadratic_eq(a, b, c);
     } catch(exception &e) {
-        cout << e.what() << endl;
-        exit(1);
+        cerr << e.what() << endl;
+        return 1;
     }
 
     return 0;

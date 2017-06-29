@@ -29,8 +29,8 @@ int main() {
         try {
             result = ctok(input);    
         } catch (exception &e) {
-            cout << "Invalid argument: " << e.what() << endl;
-            exit(1);
+            cerr << "Invalid argument: " << e.what() << endl;
+            return 1;
         }
         cout << result << "K\n";          
     } else if (input == 2) {
@@ -39,12 +39,13 @@ int main() {
         try {
             result = ktoc(input);    
         } catch (exception &e) {
-            cout << "Invalid argument: " << e.what() << endl;
-            exit(1);
+            cerr << "Invalid argument: " << e.what() << endl;
+            return 1;
         }
         cout << result << "°C\n";                  
     } else {
         cout << "Please enter (1) Celsius to Kelvin or (2) Kelvin to Celsius." << endl;
         exit(1);
     } 
+    return 0;
 }

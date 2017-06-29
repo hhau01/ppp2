@@ -20,4 +20,5 @@ int main() {
     }
     double k = ctok(c);    
     cout << k << '\n'; 
+    return 0;
 }
